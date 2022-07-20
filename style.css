@@ -9,4 +9,69 @@ body {
   padding: 0;
 }
 
+/*
+ *Spacing
+This app uses an 8px unit. All spaces are a multiple of 8px:
+
+8px
+16px
+24px
+32px
+48px
+64px
+96px
+128px
+When it comes to max widths (e.g. the maximum width of the card), arbitrary values can be used.
+
+Font
+1 font is used in this project: Lato. It is already included in the stylesheet.
+
+For font sizes, the rem unit should be used.
+
+The scale is:
+
+1rem
+1.25rem
+1.5rem
+2rem
+By default, 1rem is equivalent to 16px.
+
+Color palette
+Primary (green):
+
+hsl(160deg, 100%, 30%)
+Secondary (gold):
+
+hsl(45deg, 100%, 50%) (lighter)
+hsl(45deg, 100%, 40%) (darker)
+Grays:
+
+hsl(0deg, 0%, 0%) (black)
+hsl(0deg, 0%, 10%) (very dark)
+hsl(0deg, 0%, 30%) (dark)
+hsl(0deg, 0%, 40%) (medium)
+hsl(0deg, 0%, 60%) (light)
+hsl(0deg, 0%, 100%) (white)
+ *
+*/
+
 /* Add styles here! */
+
+.intro-chunk strong {
+  color: hsl(160deg, 100%, 30%);
+}
+
+main {
+  border-top: 8px solid hsl(0deg, 0%, 40%);
+  background-color:  hsl(0deg, 0%, 60%);
+}
+
+main .card {
+  background-color: white;
+  border-bottom: 8px solid  hsl(0deg, 0%, 40%);
+}
+
+main h2 {
+  background-color: hsl(45deg, 100%, 50%);
+  border-bottom: 8px solid hsl(45deg, 100%, 40%);
+}
