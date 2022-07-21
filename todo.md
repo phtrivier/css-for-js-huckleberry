@@ -8,15 +8,15 @@
 - [x] Bottom "text" section with gray border
 
 ## Layout
-- [ ] max-width-wrapper to ensure things expand
+- [X] max-width-wrapper to ensure things expand
     (hardcoded max width ?)
-- [ ] Some margin around top title
-- [ ] Gray margins around bottom section
-- [ ] Align all text without title effect
+- [x] Some margin around top title
+- [x] Gray margins around bottom section
+- [x] Align all text without title effect
 
 ## Title effect
-- [ ] Fit box to text content with some space around
-- [ ] Some form of padding / margin to get space around the top white box
-- [ ] Some form of negative padding / margin to "overflow" to the left
-- [ ] Some form of padding to keep the text aligned
+- [x] Fit box to text content with some space around
+- [x] Some form of padding / margin to get space around the top white box
+- [x] Some form of negative padding / margin to "overflow" to the left
+- [x] Some form of padding to keep the text aligned
 
